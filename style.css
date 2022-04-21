@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: blue;
+    color: rgb(252, 252, 252);
+    border-radius: 20px;
+    text-align: center;
+    padding: 45px;
+    border-color: blueviolet;
+    margin-top: 35px;
+    margin-right: 255px;
+    margin-left: 255px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
