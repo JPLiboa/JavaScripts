@@ -10,18 +10,29 @@ let Celulares= 5000
 
 let giftCardTipo= parseInt( prompt ("Ingrese el tipo de GiftCard: Cenas - Indumentaria - Celulares"))
 
+let suma= 1;
 
- 
 
-if (Cenas==true){
+for (let i = 0; i < suma; i++) {
+    let giftCardTipo=  prompt ("Ingrese el tipo de GiftCard: Cenas - Indumentaria - Celulares")
+    if (giftCardTipo == "Cenas"){
     prompt("Ingrese el e-mail del beneficiado")
-
+    alert("¡¡Muchas gracias por elegirnos!!")
+    suma= suma - 1 ;
+}else if (giftCardTipo == "Indumentaria"){
+    prompt("Ingrese el e-mail del beneficiado")
+    alert("¡¡Muchas gracias por elegirnos!!")
+    suma= suma - 1 ;
+}else if (giftCardTipo == "Celulares"){
+    prompt("Ingrese el e-mail del beneficiado")
+    alert("¡¡Muchas gracias por elegirnos!!")
+    suma= suma - 1 ;
 }else{
-    alert ("opcion no valida")
+    alert ("opcion no valida");   
+    suma= suma + 1 ;
 }
-
-alert("¡¡Muchas gracias por elegirnos!!")
-
+  
+}
 
 /*
 let giftCardFor = 10000
